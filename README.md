@@ -45,20 +45,23 @@ docker run --name dEnhancement -p 9001:5000 -v ImageCompressionEnhancement/:/app
 ### Want to try the API you created? Try the API you created 
 #### POST url:
 ```
-http://localhost:9001/api/compressImage?url=https://img.srgcdn.com/e/w:1000/M3JFd0tENzBoaFJDQ0UzT05paGUuanBn.jpg&fileName=dummy102-3.jpeg
+http://localhost:9001/api/compressImage?url=https://brieftake.com/wp-content/uploads/2019/09/ad-f.jpg&fileName=dummy102-3.jpeg
 ```
 
 
 #### You can also use the following curl for ease:
 ```
-curl --location --request GET 'http://localhost:9001/api/compressImage?url=https://img.srgcdn.com/e/w:1000/M3JFd0tENzBoaFJDQ0UzT05paGUuanBn.jpg&fileName=dummy102-3.jpeg'
+curl --location --request GET 'http://localhost:9001/api/compressImage?url=https://brieftake.com/wp-content/uploads/2019/09/ad-f.jpg&fileName=dummy102-3.jpeg'
 ```
 
 ![pageres](MainPic.jpg "Main")
 
-This will return cropped image
-croppedImage
+
+###This will return compressed image with ***~83% reduced size*** and of ***enhanced quality***.
+
+
 ![pageres](CompressedImage.jpg "Result")
+
 
 
 ## Stuck somewhere?
