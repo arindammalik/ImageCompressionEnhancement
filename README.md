@@ -56,9 +56,13 @@ curl --location --request GET 'http://localhost:9001/api/compressImage?url=https
 
 ![pageres](MainPic.jpg "Main")
 
-This will return compressed image with ~83% reduced size and of enhanced quality
+
+###This will return compressed image with ***~83% reduced size*** and of ***enhanced quality***.
+
+
 croppedImage
 ![pageres](CompressedImage.jpg "Result")
+
 
 
 ## Stuck somewhere?
